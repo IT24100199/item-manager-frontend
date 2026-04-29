@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const API = 'http://localhost:5000/api/items';
+const API = 'http://item-manager-backend-production-dd47.up.railway.app';
 
 function App() {
   const [items, setItems] = useState([]);
